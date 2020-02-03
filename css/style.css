@@ -3,6 +3,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.container {
+    width: 97%;
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -13,14 +17,19 @@ a:hover {
     text-decoration: none;
 }
 
+
+
 /* HEADER */
-/* barra utility */
+header { /* da cancellare */
+    border-bottom: 1px solid #0069ff;
+}
+/* utility */
 .utility {
     height: 40px;
     line-height: 30px;
     font-weight: 600;
     color: #5b6987;
-    border-bottom: 1px solid #5b6987;
+    border-bottom: 1px solid #e5e8ed;
     padding: 5px 0;
 }
 
@@ -39,14 +48,60 @@ a:hover {
 }
 
 .utility .announcement:hover {
-    color: #0069ff;
+    color: #0180ff;
     cursor: pointer;
 }
 
 .utility a {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     color: #5b6987;
     -moz-osx-font-smoothing: grayscale;
     padding-left: 10px;
+}
+/* navbar */
+.logo {
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
+.logo img{
+    height: 30px;
+}
+
+nav, .sign {
+    line-height: 50px;
+    padding-top: 3px;
+}
+
+nav a {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    padding-left: 2px;
+}
+
+nav li:nth-of-type(1):after,
+nav li:nth-of-type(5):after {
+    content: "\22C1";
+    padding-left: 3px;
+    color: #909ab1;
+    cursor: pointer;
+}
+
+nav li:hover a {
+    color: #0180ff;
+}
+
+.sign button {
+    font-weight: 600;
+    color: #0069ff;
+    background-color: #fff;
+    border: 1px solid #0069ff;
+}
+
+.sign button:hover {
+    color: #fff;
+    background-color: #0069ff;
+    transition: 0.3s ease-in-out;
 }
