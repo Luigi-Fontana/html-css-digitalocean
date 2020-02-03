@@ -1,0 +1,52 @@
+/* TAG generichi per stili che si ripeteranno in tutto il sito */
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* HEADER */
+/* barra utility */
+.utility {
+    height: 40px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #5b6987;
+    border-bottom: 1px solid #5b6987;
+    padding: 5px 0;
+}
+
+.utility .news {
+    font-size: 10px;
+    color: rgb(3,27,78);
+    background-color: #00d7d2;
+    border-radius: 5px;
+    padding: 4px 7px;
+}
+
+.utility p {
+    font-size: 11px;
+    padding-left: 10px;
+    display: inline;
+}
+
+.utility .announcement:hover {
+    color: #0069ff;
+    cursor: pointer;
+}
+
+.utility a {
+    font-size: 12px;
+    font-weight: 600;
+    color: #5b6987;
+    -moz-osx-font-smoothing: grayscale;
+    padding-left: 10px;
+}
