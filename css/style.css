@@ -8,12 +8,6 @@
     width: 97%;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 a:hover {
     text-decoration: none;
 }
@@ -136,6 +130,7 @@ h1 {
     background-color: #fff;
     padding: 0 30px !important;
     margin-top: 100px;
+    margin-bottom: 100px;
     margin-left: 80px;
 }
 
@@ -144,7 +139,7 @@ h1 {
     padding-top: 35px;
     padding-bottom: 20px;
 }
-
+/* form */
 .jumbotron input {
     border: 1px solid #e5e8ed;
     padding: 25px 15px;
@@ -172,6 +167,66 @@ form button:hover {
     background-color: #0248ff;
     transition: 0.3s ease-in-out;
 }
+/* divisore */
+.divisor p {
+    font-size: 14px;
+    color: #727e98;
+}
+
+.divisor p:after,
+.divisor p:before {
+    content: "";
+    width: 30%;
+    display: inline-block;
+    border-top: 1px solid #e5e8ed;
+    position: relative;
+    bottom: 2px;
+    margin: 0 7px;
+}
+/* bottoni */
+.btn-google, .btn-github {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f2f8ff;
+    border: 1px solid #c2dcff;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-google svg,
+.btn-github svg {
+    margin-right: 15px;
+    margin-left: 5px;
+    position: relative;
+    top: 3px;
+}
+
+.btn-google:hover,
+.btn-github:hover {
+    background-color: #d5e4f7;
+    transition: 0.2s ease-in-out;
+}
+
+.terms p{
+    font-size: 11px;
+    color: #42547a;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.terms a {
+    color: #0069ff;
+}
+
+.terms a:hover {
+    color: #0248ff;
+}
+
+
 
 /* media query per gli stili che cambiano con le dimensioni del device */
 @media screen and (min-width: 768px) {
