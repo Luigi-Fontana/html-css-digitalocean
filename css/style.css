@@ -116,7 +116,7 @@ h1 {
     font-weight: 600;
     color: #fff;
     line-height: 1.5;
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 .title p {
@@ -129,9 +129,6 @@ h1 {
 .jumbotron {
     background-color: #fff;
     padding: 0 30px !important;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 80px;
 }
 
 .jumbotron h2 {
@@ -171,17 +168,16 @@ form button:hover {
 .divisor p {
     font-size: 14px;
     color: #727e98;
+    display: grid;
+    grid-template-columns: minmax(20px,1fr) auto minmax(20px,1fr);
+    grid-gap: 19px;
+    align-items: center;
 }
 
 .divisor p:after,
 .divisor p:before {
     content: "";
-    width: 30%;
-    display: inline-block;
     border-top: 1px solid #e5e8ed;
-    position: relative;
-    bottom: 2px;
-    margin: 0 7px;
 }
 /* bottoni */
 .btn-google, .btn-github {
@@ -198,7 +194,7 @@ form button:hover {
 
 .btn-google svg,
 .btn-github svg {
-    margin-right: 15px;
+    margin-right: 5px;
     margin-left: 5px;
     position: relative;
     top: 3px;
@@ -226,8 +222,6 @@ form button:hover {
     color: #0248ff;
 }
 
-
-
 /* media query per gli stili che cambiano con le dimensioni del device */
 @media screen and (min-width: 768px) {
     .banner {
@@ -237,12 +231,47 @@ form button:hover {
 
     h1 {
         font-size: 40px;
+        padding-top: 180px;
+    }
+
+    .jumbotron {
+        max-width: 400px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 80px;
+    }
+
+    .btn-google, .btn-github {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .btn-google svg,
+    .btn-github svg {
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
 @media screen and (min-width: 992px) {
     h1 {
         font-size: 50px;
+    }
+
+    .btn-google svg,
+    .btn-github svg {
+        margin-right: 15px;
+    }
+
+    .btn-google, .btn-github {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .btn-google svg,
+    .btn-github svg {
+        margin-right: 5px;
+        margin-left: 5px;
     }
 }
 
