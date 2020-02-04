@@ -266,16 +266,19 @@ form button:hover {
     padding-bottom: 40px;
 }
 /* link finale */
-#customers a {
+#customers a,
+#business a {
     color: #0069ff;
 }
 
-#customers a:after {
+#customers a:after,
+#business a:after {
     content: "\203A";
     padding-left: 10px;
 }
 
-#customers a:hover {
+#customers a:hover,
+#business a:hover {
     color: #0248ff;
 }
 
@@ -373,6 +376,11 @@ form button:hover {
     padding-bottom: 50px;
 }
 
+#business h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 /* media query per gli stili che cambiano con le dimensioni del device */
 @media screen and (min-width: 768px) {
     #banner {
@@ -424,6 +432,10 @@ form button:hover {
     #deploy li:hover {
         border-bottom: none;
         border-left: 2px solid #0248ff;
+    }
+
+    #min-height {
+        min-height: 300px;
     }
 }
 
