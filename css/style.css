@@ -326,6 +326,47 @@ form button:hover {
     padding-bottom: 40px;
 }
 
+/* DEVELOPERS */
+#developers h3 {
+    padding-bottom: 50px;
+}
+/* frecce */
+.fa-chevron-left,
+.fa-chevron-right {
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+}
+
+.fa-chevron-left {
+    color: #a9b2c4;
+}
+
+.fa-chevron-right {
+    color: #031b4e;
+}
+
+.fa-chevron-right:hover {
+    color: #0248ff;
+}
+/* testo e pallini finali */
+#developers p {
+    font-size: 16px;
+    color: rgba(3,27,78,.7);
+    -moz-osx-font-smoothing: grayscale;
+    padding: 30px 70px 10px;
+}
+
+.fa-circle {
+    font-size: 10px;
+    color: #0248ff;
+    padding-bottom: 80px;
+}
+
+#developers p:hover,
+.fa-circle:hover {
+    cursor: grab;
+}
 
 /* media query per gli stili che cambiano con le dimensioni del device */
 @media screen and (min-width: 768px) {
@@ -404,6 +445,12 @@ form button:hover {
         height: 37px;
         margin: 20px auto;
     }
+
+    .fa-chevron-left,
+    .fa-chevron-right {
+        font-size: 50px;
+        top: 250px;
+        cursor: pointer;
 }
 
 @media screen and (min-width: 1200px) {
