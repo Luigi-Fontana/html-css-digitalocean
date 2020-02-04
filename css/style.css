@@ -272,7 +272,8 @@ form button:hover {
 }
 
 #customers a:after,
-#business a:after {
+#business a:after,
+#world a:after {
     content: "\203A";
     padding-left: 10px;
 }
@@ -381,6 +382,57 @@ form button:hover {
     font-weight: 700;
 }
 
+/* WORLD */
+.mrg {
+    padding-bottom: 50px;
+}
+
+#world {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+    background-size: cover;
+    background-color: #031b4e;
+}
+
+#world h2 {
+    color: white;
+}
+/* tabella */
+.tb-world {
+    padding-top: 50px;
+}
+
+#world .row-td {
+    border-bottom: 1px solid #354971;
+    padding-top: 10px;
+    padding-right: 1px;
+    margin: 0 3px;
+}
+
+#world .last {
+    border-bottom: none;
+    padding-bottom: 30px;
+}
+
+#world .th {
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+
+#world .tr {
+    font-size: 13px;
+    color: #9aa3b8;
+}
+
+#world a {
+    font-size: 11px;
+    color: #00d7d2;
+}
+
+#world a:hover {
+    color: #0248ff;
+}
+
 /* media query per gli stili che cambiano con le dimensioni del device */
 @media screen and (min-width: 768px) {
     #banner {
@@ -437,6 +489,10 @@ form button:hover {
     #min-height {
         min-height: 300px;
     }
+
+    #world .tr {
+        font-size: 11px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -468,6 +524,11 @@ form button:hover {
         font-size: 50px;
         top: 250px;
         cursor: pointer;
+    }
+
+    #world .tr {
+        font-size: 13px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
