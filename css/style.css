@@ -16,6 +16,10 @@
     background-color: #f3f5f9;
 }
 
+.ms--bg-dark {
+    background-color: #010e28;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -471,6 +475,59 @@ form button:hover {
     opacity: 0.6;
     transition: 0.3s ease-in-out;
 }
+
+/* FOOTER */
+/* lista */
+.ft-list {
+    padding: 80px 0;
+}
+
+footer h4 {
+    font-size: 12px;
+    color: #fff;
+}
+
+.ft-list li {
+    padding: 3px 0;
+}
+
+footer a,
+footer p {
+    font-size: 12px;
+    color: #767d8b;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+#ft-min-height {
+    min-height: 382px;
+}
+/* logo e social finali */
+.ft-row {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-top: 1px solid #343e53;
+}
+
+footer p {
+    display: inline;
+}
+
+footer svg {
+    position: relative;
+    top: 20px;
+    margin-right: 10px;
+}
+
+footer i {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+
 
 /* media query per gli stili che cambiano con le dimensioni del device */
 @media screen and (min-width: 768px) {
