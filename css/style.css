@@ -330,8 +330,9 @@ form button:hover {
     padding-bottom: 40px;
 }
 
-/* DEVELOPERS */
-#developers h3 {
+/* DEVELOPERS $ DEVELOPMENT*/
+#developers h3,
+#development h3 {
     padding-bottom: 50px;
 }
 /* frecce */
@@ -353,6 +354,16 @@ form button:hover {
 .fa-chevron-right:hover {
     color: #0248ff;
 }
+
+#developers img,
+#development img{
+    border-radius: 5px;
+}
+
+#developers img:hover,
+#development img:hover {
+    cursor: grab;
+}
 /* testo e pallini finali */
 #developers p {
     font-size: 16px;
@@ -365,6 +376,10 @@ form button:hover {
     font-size: 10px;
     color: #0248ff;
     padding-bottom: 80px;
+}
+
+#development .fa-circle {
+    padding-top: 30px;
 }
 
 #developers p:hover,
