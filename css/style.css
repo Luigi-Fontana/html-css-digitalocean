@@ -186,18 +186,17 @@ form button:hover {
     font-weight: bold;
     background-color: #f2f8ff;
     border: 1px solid #c2dcff;
-    text-align: left;
     margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    position: relative;
 }
 
 .btn-google svg,
 .btn-github svg {
-    margin-right: 5px;
-    margin-left: 5px;
-    position: relative;
-    top: 3px;
+    position: absolute;
+    top: 12px;
+    left: 15px;
 }
 
 .btn-google:hover,
@@ -248,19 +247,12 @@ form button:hover {
 
     .btn-google svg,
     .btn-github svg {
-        margin-right: 0;
-        margin-left: 0;
-    }
+        left: 1px;
 }
 
 @media screen and (min-width: 992px) {
     h1 {
         font-size: 50px;
-    }
-
-    .btn-google svg,
-    .btn-github svg {
-        margin-right: 15px;
     }
 
     .btn-google, .btn-github {
@@ -270,9 +262,7 @@ form button:hover {
 
     .btn-google svg,
     .btn-github svg {
-        margin-right: 5px;
-        margin-left: 5px;
-    }
+        left: 15px;
 }
 
 @media screen and (min-width: 1200px) {
