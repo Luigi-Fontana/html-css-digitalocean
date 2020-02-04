@@ -12,6 +12,26 @@ a:hover {
     text-decoration: none;
 }
 
+h1 {
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.5;
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #031b4e;
+    padding-top: 80px;
+}
+
+h3 {
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+    -moz-osx-font-smoothing: grayscale;
+}
+
 /* HEADER */
 /* utility */
 .utility {
@@ -112,13 +132,6 @@ nav li:hover a {
     padding: 30px 0;
 }
 /* title */
-h1 {
-    font-weight: 600;
-    color: #fff;
-    line-height: 1.5;
-    padding-top: 80px;
-}
-
 .title p {
     font-size: 20px;
     color: #ccdaff;
@@ -132,7 +145,7 @@ h1 {
 }
 
 .jumbotron h2 {
-    font-weight: 600;
+    font-size: 28px;
     padding-top: 35px;
     padding-bottom: 20px;
 }
@@ -221,12 +234,12 @@ form button:hover {
     color: #0248ff;
 }
 
-/* SPONSOR */
-#sponsor {
+/* CUSTOMERS */
+#customers {
     background-color: #f3f5f9;
 }
 
-#sponsor h4 {
+#customers h4 {
     font-size: 16px;
     color: #939eb4;
     padding-top: 50px;
@@ -237,31 +250,34 @@ form button:hover {
 }
 
 #img-same {
-    height: 117px;
+    height: 97px;
 }
 
 #img-diff {
-    height: 77px;
+    height: 57px;
     margin: 20px auto;
 }
 
-#sponsor p {
+#customers p {
     font-size: 16px;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
-#sponsor a {
+#customers a {
     color: #0069ff;
 }
 
-#sponsor a:after {
+#customers a:after {
     content: "\203A";
     padding-left: 10px;
 }
 
-#sponsor a:hover {
+#customers a:hover {
     color: #0248ff;
 }
+
+/* DEPLOY */
 
 
 /* media query per gli stili che cambiano con le dimensioni del device */
@@ -294,11 +310,11 @@ form button:hover {
     }
 
     #img-same {
-        height: 97px;
+        height: 87px;
     }
 
     #img-diff {
-        height: 57px;
+        height: 47px;
         margin: 20px auto;
     }
 }
