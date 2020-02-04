@@ -448,6 +448,30 @@ form button:hover {
     color: #0248ff;
 }
 
+/* START */
+#start {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-size: cover;
+}
+
+#start h2 {
+    color: #fff;
+}
+
+#start button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0069ff;
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#start button:hover {
+    opacity: 0.6;
+    transition: 0.3s ease-in-out;
+}
+
 /* media query per gli stili che cambiano con le dimensioni del device */
 @media screen and (min-width: 768px) {
     #banner {
