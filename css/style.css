@@ -310,7 +310,7 @@ form button:hover {
 }
 /* info */
 .info svg {
-    margin-bottom: -20px;
+    margin-bottom: -10px;
 }
 
 .info h3 {
@@ -366,6 +366,11 @@ form button:hover {
 #developers p:hover,
 .fa-circle:hover {
     cursor: grab;
+}
+
+/* BUSINESS */
+#business h2 {
+    padding-bottom: 50px;
 }
 
 /* media query per gli stili che cambiano con le dimensioni del device */
