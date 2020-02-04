@@ -97,7 +97,7 @@ nav li:hover a {
 }
 
 /* BANNER */
-.banner{
+#banner{
     background-color: #0248ff;
 }
 /* menu */
@@ -221,9 +221,52 @@ form button:hover {
     color: #0248ff;
 }
 
+/* SPONSOR */
+#sponsor {
+    background-color: #f3f5f9;
+}
+
+#sponsor h4 {
+    font-size: 16px;
+    color: #939eb4;
+    padding-top: 50px;
+}
+
+.row-sponsor div {
+    margin-top: 10px;
+}
+
+#img-same {
+    height: 117px;
+}
+
+#img-diff {
+    height: 77px;
+    margin: 20px auto;
+}
+
+#sponsor p {
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+#sponsor a {
+    color: #0069ff;
+}
+
+#sponsor a:after {
+    content: "\203A";
+    padding-left: 10px;
+}
+
+#sponsor a:hover {
+    color: #0248ff;
+}
+
+
 /* media query per gli stili che cambiano con le dimensioni del device */
 @media screen and (min-width: 768px) {
-    .banner {
+    #banner {
         background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
         background-size: cover;
     }
@@ -248,6 +291,16 @@ form button:hover {
     .btn-google svg,
     .btn-github svg {
         left: 1px;
+    }
+
+    #img-same {
+        height: 97px;
+    }
+
+    #img-diff {
+        height: 57px;
+        margin: 20px auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -263,6 +316,16 @@ form button:hover {
     .btn-google svg,
     .btn-github svg {
         left: 15px;
+    }
+
+    #img-same {
+        height: 77px;
+    }
+
+    #img-diff {
+        height: 37px;
+        margin: 20px auto;
+    }
 }
 
 @media screen and (min-width: 1200px) {
