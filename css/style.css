@@ -8,6 +8,14 @@
     width: 97%;
 }
 
+.ms--bg-blue {
+    background-color: #0248ff;
+}
+
+.ms--bg-gray {
+    background-color: #f3f5f9;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -23,13 +31,14 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     color: #031b4e;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 h3 {
     font-size: 20px;
     color: rgba(3,27,78,.7);
     -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 20px;
 }
 
 /* HEADER */
@@ -69,7 +78,7 @@ h3 {
     -moz-osx-font-smoothing: grayscale;
     padding-left: 10px;
 }
-/* navbar */
+/* logo */
 .logo {
     padding: 10px 0;
     margin-bottom: 0;
@@ -78,7 +87,7 @@ h3 {
 .logo img{
     height: 30px;
 }
-
+/* navbar */
 nav, .sign {
     line-height: 50px;
     padding-top: 3px;
@@ -102,7 +111,7 @@ nav li:nth-of-type(5):after {
 nav li:hover a {
     color: #0180ff;
 }
-
+/* bottone */
 .sign button {
     font-weight: 600;
     color: #0069ff;
@@ -117,9 +126,6 @@ nav li:hover a {
 }
 
 /* BANNER */
-#banner{
-    background-color: #0248ff;
-}
 /* menu */
 .menu img {
     height: 30px;
@@ -143,7 +149,7 @@ nav li:hover a {
     background-color: #fff;
     padding: 0 30px !important;
 }
-
+/* titolo */
 .jumbotron h2 {
     font-size: 28px;
     padding-top: 35px;
@@ -217,7 +223,7 @@ form button:hover {
     background-color: #d5e4f7;
     transition: 0.2s ease-in-out;
 }
-
+/* termini */
 .terms p{
     font-size: 11px;
     color: #42547a;
@@ -235,16 +241,12 @@ form button:hover {
 }
 
 /* CUSTOMERS */
-#customers {
-    background-color: #f3f5f9;
-}
-
 #customers h4 {
     font-size: 16px;
     color: #939eb4;
     padding-top: 50px;
 }
-
+/* immagini sponsor */
 .row-sponsor div {
     margin-top: 10px;
 }
@@ -263,7 +265,7 @@ form button:hover {
     padding-top: 20px;
     padding-bottom: 40px;
 }
-
+/* link finale */
 #customers a {
     color: #0069ff;
 }
@@ -278,6 +280,51 @@ form button:hover {
 }
 
 /* DEPLOY */
+.row-deploy {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+/* lista */
+#deploy ul {
+    margin-bottom: 30px;
+}
+
+#deploy li {
+    display: inline-block;
+    padding: 10px 20px;
+    border-bottom: 2px solid #e5e8ed;
+}
+
+#deploy li:hover {
+    border-bottom: 2px solid #0248ff;
+    cursor: pointer;
+}
+
+#deploy a {
+    font-size: 16px;
+    color: #818da6;
+}
+
+#deploy a:hover {
+    color: #031b4e;
+}
+/* info */
+.info svg {
+    margin-bottom: -20px;
+}
+
+.info h3 {
+    font-size: 16px;
+    color: #031b4e;
+    font-weight: 600;
+}
+
+.info p {
+    font-size: 15px;
+    color: rgba(3,27,78,.7);
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 40px;
+}
 
 
 /* media query per gli stili che cambiano con le dimensioni del device */
@@ -316,6 +363,21 @@ form button:hover {
     #img-diff {
         height: 47px;
         margin: 20px auto;
+    }
+
+    #deploy li {
+        text-align: left;
+        display: block;
+        border-bottom: none;
+        border-left: 2px solid #e5e8ed;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 35px;
+    }
+
+    #deploy li:hover {
+        border-bottom: none;
+        border-left: 2px solid #0248ff;
     }
 }
 
