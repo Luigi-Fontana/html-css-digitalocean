@@ -35,7 +35,7 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     color: #031b4e;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 h3 {
@@ -401,6 +401,14 @@ form button:hover {
     font-weight: 700;
 }
 
+#business p {
+    padding-bottom: 0;
+}
+
+#min-height {
+    min-height: 300px;
+}
+
 /* WORLD */
 .mrg {
     padding-bottom: 50px;
@@ -468,7 +476,7 @@ form button:hover {
     color: #0069ff;
     padding: 15px 25px;
     margin-top: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
 }
 
 #start button:hover {
@@ -527,8 +535,6 @@ footer i {
     padding-left: 5px;
 }
 
-
-
 /* media query per gli stili che cambiano con le dimensioni del device */
 @media screen and (min-width: 768px) {
     #banner {
@@ -582,8 +588,11 @@ footer i {
         border-left: 2px solid #0248ff;
     }
 
-    #min-height {
-        min-height: 300px;
+    .fa-chevron-left,
+    .fa-chevron-right {
+        font-size: 50px;
+        top: 150px;
+        cursor: pointer;
     }
 
     #world .tr {
@@ -620,6 +629,11 @@ footer i {
         font-size: 50px;
         top: 250px;
         cursor: pointer;
+    }
+
+    #development .fa-chevron-left,
+    #development .fa-chevron-right {
+        top: 150px;
     }
 
     #world .tr {
